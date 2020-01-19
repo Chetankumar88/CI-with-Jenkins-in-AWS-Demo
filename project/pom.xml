@@ -45,13 +45,13 @@
                     </plugin>
                 </plugins>
             </build>
-        </profile>
-    </profiles>
-<distributionManagement>
+            <distributionManagement>
 <repository> 
     <id>maven-releases</id>
     <name>maven-releases</name>
     <url>http://35.200.169.64:8081/repository/maven-releases/</url>
     </repository> 
     </distributionManagement>
+        </profile>
+    </profiles>
 </project>
